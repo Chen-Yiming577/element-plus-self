@@ -18,8 +18,8 @@ window.addEventListener('unhandledrejection', (e: PromiseRejectionEvent) => {
     'color: #3498db;'
   )
   console.error(err)
-})
-;(async () => {
+});
+(async () => {
   const apps = import.meta.glob<
     true,
     string,
